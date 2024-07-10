@@ -55,7 +55,13 @@ Ensure you have the following installed on your local machine:
     ```
     npm install
     ```
-3. Run the client:
+3. Add env variables:
+    ```
+    cp .env.sample .env
+    ```
+    and change the key in the url for REACT_APP_TESTNET_URI
+
+4. Run the client:
     ```
     npm start
     ```
